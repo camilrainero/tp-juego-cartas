@@ -9,6 +9,7 @@ namespace EjercicioBanco
     public class CuentaCorriente:CuentaBancaria
     {
         public int Descubierto { get; set; }
+        public int prueba { get; set; }
 
         private static List<CuentaCorriente> ListaCuentaCorriente = new List<CuentaCorriente>();
 
